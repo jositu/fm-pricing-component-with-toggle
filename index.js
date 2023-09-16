@@ -5,14 +5,14 @@ function togglePricing() {
 
   if (toggleButton.checked) {
     for (let i = 0; i < monthlyPrices.length; i++) {
-      monthlyPrices[i].style.display = 'block';
+      monthlyPrices[i].style.display = 'flex';
       annuallyPrices[i].style.display = 'none';
     }
 
   } else {
     for (let i = 0; i < monthlyPrices.length; i++) {
       monthlyPrices[i].style.display = 'none';
-      annuallyPrices[i].style.display = 'block';
+      annuallyPrices[i].style.display = 'flex';
     }
   }
 }

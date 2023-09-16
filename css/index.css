@@ -204,32 +204,6 @@ main {
 }
 
 /* ----------------------------------------------------- */
-/* Prices */
-
-.price-container {
-  line-height: 1;
-}
-
-.price-container > * {
-  display: flex;
-  align-items: center;
-}
-
-.price-container > *::before {
-  content: '$';
-  padding-right: 0.5rem;
-  font-size: calc(var(--fs--900) * 0.6);
-}
-
-.annually-price {
-  display: block;
-}
-
-.monthly-price {
-  display: none;
-}
-
-/* ----------------------------------------------------- */
 /* Cards */
 
 .card-group {
@@ -287,6 +261,32 @@ main {
   .card--accent {
     padding: 5.8rem 3.6rem;
   }
+}
+
+/* ----------------------------------------------------- */
+/* Prices */
+
+.price-container {
+  line-height: 1;
+}
+
+.price-container > * {
+  display: flex;
+  align-items: center;
+}
+
+.price-container > *::before {
+  content: '$';
+  padding-right: 0.5rem;
+  font-size: calc(var(--fs--900) * 0.6);
+}
+
+.annually-price {
+  display: flex;
+}
+
+.monthly-price {
+  display: none;
 }
 
 /* ----------------------------------------------------- */
